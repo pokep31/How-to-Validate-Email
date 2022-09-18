@@ -13,5 +13,38 @@ body{
   align-items: center;
   height: 100vh;
   padding: 0 20px;
-  
+  background-color: #e3f2fd;
+}
+
+.input-field{
+  position: relative;
+  width: 280px;
+  height: 50px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.input-field input{
+  width: 89%;
+  height: 100%;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+input::placeholder{
+  color: #b4b4b4;
+}
+
+.input-field .email-icon{
+  position: absolute;
+  font-size: 22px;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #b4b4b4;
 }
